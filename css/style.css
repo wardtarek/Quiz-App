@@ -48,7 +48,9 @@ body {
     transform: rotate(360deg);
   }
 }
-
+.container{
+  width: 95%;
+}
 #startBtn {
   letter-spacing: 2px;
   font-size: 14px;
@@ -85,3 +87,10 @@ body {
   color: #fff !important;
   border: none !important;
 }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .container{
+    width: 60%;
+  }
+ }
